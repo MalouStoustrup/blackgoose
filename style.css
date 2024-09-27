@@ -1,0 +1,38 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --primary-color:#e36619;
+}
+
+header {
+    text-align: center;
+}
+
+body {
+    background-color: rgb(249, 236, 209);
+    margin: 30px;
+}
+
+main {
+    font-family:Arial, Helvetica, sans-serif
+}
+
+.line {
+    background-color: lightblue;
+    height: 2px;
+}
+
+h1 {
+    text-transform: uppercase;
+    font-weight: normal;
+}
+
+h2 {
+color: var(--primary-color);
+font-size: 1rem;
+
+}
